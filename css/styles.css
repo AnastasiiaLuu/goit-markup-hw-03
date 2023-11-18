@@ -1,18 +1,43 @@
-body {font-family: 'Roboto', sans-serif;
+/* ============== COMMON STYLES ============== */
+  body {font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;}
 
-    .list {list-style-type: none;}
+  .list {list-style-type: none;}
 
-    .link {text-decoration: none;}
+  .link {text-decoration: none;}
 
 
     ul {
         list-style: none;
         }
 
-button {cursor: pointer}
-.pressbutton {color: var(--WHITE, #FFF);
+  h1,h2,h3,h4,h5,h6,p {margin-top: 0; ; margin-bottom: 0;}
+
+  ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;}
+
+  img {display: block;}   
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+  button {cursor: pointer}
+  .pressbutton {color: var(--WHITE, #FFF);
     /* Button Text */
     font-size: 16px;
     font-weight: 500;
@@ -23,11 +48,12 @@ button {cursor: pointer}
 
 
 
-    button:hover {background-color: #404BBF;}
-    button:focus {background-color: #404BBF;}
+  button:hover {background-color: #404BBF;}
+  button:focus {background-color: #404BBF;}
 
+/* ============== COMMON STYLES ============== */
 
-.logo {
+  .logo {
     color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -38,7 +64,7 @@ button {cursor: pointer}
     text-transform: uppercase;
 }
 
-.logo-plus {color: var(--NAVY-BLUE, #2E2F42);
+  .logo-plus {color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -47,7 +73,7 @@ button {cursor: pointer}
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
-.nav-link {color: var(--NAVY-BLUE, #2E2F42);
+  .nav-link {color: var(--NAVY-BLUE, #2E2F42);
     /* Body Medium */
     
     font-size: 16px;
@@ -56,9 +82,9 @@ button {cursor: pointer}
     /* 150% */
     letter-spacing: 0.02em;}
 
-    .nav-link:hover, .nav-link:focus, nav-link:active {color: #404BBF ;}
+  .nav-link:hover, .nav-link:focus, nav-link:active {color: #404BBF ;}
 
-    .contacts-link {color: var(--SLATE, #434455);
+  .contacts-link {color: var(--SLATE, #434455);
         /* Body */
         font-family: Roboto;
         font-size: 16px;
@@ -70,11 +96,11 @@ button {cursor: pointer}
         .contacts {font-style: normal}
 
            
-.contacts-link:hover, .contacts-link:focus {color: #404BBF ;}
+  .contacts-link:hover, .contacts-link:focus {color: #404BBF ;}
 
-h1 {color: #FFF;}
-.banner {background-color: #2E2F42;}
-.banner-item {color: var(--WHITE, #FFF);
+  h1 {color: #FFF;}
+  .banner {background-color: #2E2F42;}
+  .banner-item {color: var(--WHITE, #FFF);
     text-align: center;
     /* Header 1 */
     font-size: 56px;
@@ -84,7 +110,7 @@ h1 {color: #FFF;}
     letter-spacing: 0.02em;;}
 
 
-.benefits-item {color: var(--NAVY-BLUE, #2E2F42);
+  .benefits-item {color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
     font-size: 36px;
@@ -93,7 +119,7 @@ h1 {color: #FFF;}
     letter-spacing: 0.02em;
     text-transform: capitalize;}
 
-    .benefits-list 
+  .benefits-list 
     {color: var(--NAVY-BLUE, #2E2F42);
         /* Header 3 */
         font-size: 20px;
@@ -101,7 +127,7 @@ h1 {color: #FFF;}
         line-height: 1.2; /* 120% */
         letter-spacing: 0.02em;}
 
-        .benefits-paragf
+  .benefits-paragf
         {color: var(--SLATE, #434455);
             /* Body */
             font-size: 16px;
@@ -112,8 +138,8 @@ h1 {color: #FFF;}
     
 
 
-    .team-item {background-color: #F4F4FD;}
-    .team-list {color: var(--NAVY-BLUE, #2E2F42);
+  .team-item {background-color: #F4F4FD;}
+  .team-list {color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         /* Header 2 */
         font-size: 36px;
@@ -122,7 +148,7 @@ h1 {color: #FFF;}
         letter-spacing: 0.02em;
         text-transform: capitalize;}
 
-        .name {color: var(--NAVY-BLUE, #2E2F42);
+  .name {color: var(--NAVY-BLUE, #2E2F42);
             text-align: center;
             /* Header 3 */
             font-size: 20px;
@@ -130,7 +156,7 @@ h1 {color: #FFF;}
             line-height: 1.2; /* 120% */
             letter-spacing: 0.02em;}
          
-            .work {color: var(--SLATE, #434455);
+  .work {color: var(--SLATE, #434455);
                 text-align: center;
                 /* Body */
                 font-size: 16px;
@@ -138,10 +164,10 @@ h1 {color: #FFF;}
                 line-height: 1.5; /* 150% */
                 letter-spacing: 0.02em;}
 
-.back {background-color: #FFFFFF;}
+  .back {background-color: #FFFFFF;}
 
         
-        .portfolio-list{color: var(--NAVY-BLUE, #2E2F42);
+  .portfolio-list{color: var(--NAVY-BLUE, #2E2F42);
             text-align: center;
             /* Header 2 */
             font-size: 36px;
@@ -150,21 +176,21 @@ h1 {color: #FFF;}
             letter-spacing: 0.02em;
             text-transform: capitalize;}
 
-            .service {color: var(--NAVY-BLUE, #2E2F42);
+  .service {color: var(--NAVY-BLUE, #2E2F42);
                 /* Header 3 */
                 font-size: 20px;
                 font-weight: 500;
                 line-height: 1.2; /* 120% */
                 letter-spacing: 0.02em;}
-            .category {color: var(--SLATE, #434455);
+  .category {color: var(--SLATE, #434455);
                 /* Body */
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 1.5; /* 150% */
                 letter-spacing: 0.02em;}
         
-        .the-end {background-color: #2e2f42;}
-        .logo-end {color: var(--IRIS, #4D5AE5);
+  .the-end {background-color: #2e2f42;}
+  .logo-end {color: var(--IRIS, #4D5AE5);
             font-family: 'Raleway', sans-serif;
             font-size: 18px;
             font-weight: 700;
@@ -172,7 +198,7 @@ h1 {color: #FFF;}
             letter-spacing: 0.03em;
             text-transform: uppercase;}
             
-         .logo-end-plus {color: var(--CLOUD, #F4F4FD);
+  .logo-end-plus {color: var(--CLOUD, #F4F4FD);
             font-family: 'Raleway', sans-serif;
             font-size: 18px;
             font-weight: 700;
@@ -180,7 +206,7 @@ h1 {color: #FFF;}
             letter-spacing: 0.03em;
             text-transform: uppercase;}   
 
-       .paragh {color: var(--CLOUD, #F4F4FD);
+  .paragh {color: var(--CLOUD, #F4F4FD);
         /* Body */
         font-size: 16px;
         font-weight: 400;
