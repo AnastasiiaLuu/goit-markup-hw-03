@@ -202,6 +202,8 @@ nav {margin-right: auto;}
 
       .notitia {display: flex;
         gap: 24px;}
+
+        .notitia-item {width: calc((100% - 72px) / 4);}
         
 
   .benefits-paragf
@@ -225,7 +227,8 @@ nav {margin-right: auto;}
             font-weight: 500;
             line-height: 1.2; /* 120% */
             letter-spacing: 0.02em;
-            margin-bottom: 8px;}
+            margin-bottom: 8px;
+            margin-bottom: 72px;}
          
   .work {color: var(--SLATE, #434455);
                 text-align: center;
@@ -238,7 +241,8 @@ nav {margin-right: auto;}
   .back {background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;}
 
-  .employees {display: flex;}
+  .employees {display: flex;
+    gap: 24px;}
 
   .container-two {padding: 32px 0;
   }
@@ -276,7 +280,9 @@ nav {margin-right: auto;}
             font-weight: 700;
             line-height: 1.17; /* 116.667% */
             letter-spacing: 0.03em;
-            text-transform: uppercase;}
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 16px;}
             
   .logo-end-plus {color: var(--CLOUD, #F4F4FD);
             font-family: 'Raleway', sans-serif;
@@ -284,7 +290,8 @@ nav {margin-right: auto;}
             font-weight: 700;
             line-height: 1.17; /* 116.667% */
             letter-spacing: 0.03em;
-            text-transform: uppercase;}   
+            text-transform: uppercase;
+            display: inline-block;}   
 
   .paragh {color: var(--CLOUD, #F4F4FD);
         /* Body */
