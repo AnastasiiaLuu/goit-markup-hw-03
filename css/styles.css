@@ -19,7 +19,10 @@
     margin-bottom: 0;
     padding-left: 0;}
 
-  img {display: block;}   
+  img {display: block;
+  }   
+
+  
 
   .visually-hidden {
     position: absolute;
@@ -97,7 +100,9 @@ nav {margin-right: auto;}
        gap: 40px;
         }
 
-.header-container{display: flex;}
+.header-container{display: flex;
+  margin: 0 auto;
+ }
 
 .top-header {border-bottom: 1px solid #e7e9fc;
 }
@@ -256,6 +261,8 @@ nav {margin-right: auto;}
 
   .container-two {padding: 32px 0;
   }
+
+  .frame {border: #2E2F42;}
 
 /* ============== SECTION-THREE STYLES ============== */
 
