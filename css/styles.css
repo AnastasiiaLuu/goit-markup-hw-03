@@ -44,13 +44,18 @@
 
   button {cursor: pointer}
   .pressbutton {color: var(--WHITE, #FFF);
-    /* Button Text */
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;}
+    background-color: #4D5AE5;
+    
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
 
 
 
@@ -89,6 +94,9 @@ nav {margin-right: auto;}
 
 .header-container{display: flex;}
 
+.top-header {border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;}
+
 .logo {
     color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
@@ -97,6 +105,7 @@ nav {margin-right: auto;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
   .logo-plus {
@@ -157,9 +166,11 @@ nav {margin-right: auto;}
       height: 600px;
       margin-left: auto;
       margin-right: auto;
+      padding: 188px 0
      }
 
-      .banner-item-section-title {width: 496px;
+      .banner-item-section-title {
+        max-width: 496px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -175,14 +186,23 @@ nav {margin-right: auto;}
     font-weight: 700;
     line-height: 1/11; /* 111.111% */
     letter-spacing: 0.02em;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+    padding: 120px 0}
+
+    .benefits-item-section-title{padding: 120px 0;}
 
   .benefits-list 
     {color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2; /* 120% */
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+      }
+
+      .notitia {display: flex;
+        gap: 24px;}
+        
 
   .benefits-paragf
         {color: var(--SLATE, #434455);
@@ -195,7 +215,8 @@ nav {margin-right: auto;}
 
 
   /* ============== SECTION-THREE STYLES ============== */
-  .team-item {background-color: #F4F4FD;}
+  .team-item {background-color: #F4F4FD;
+    padding: 120px 0;}
   
 
   .name {color: var(--NAVY-BLUE, #2E2F42);
@@ -203,18 +224,24 @@ nav {margin-right: auto;}
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2; /* 120% */
-            letter-spacing: 0.02em;}
+            letter-spacing: 0.02em;
+            margin-bottom: 8px;}
          
   .work {color: var(--SLATE, #434455);
                 text-align: center;
-                /* Body */
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 1.5; /* 150% */
-                letter-spacing: 0.02em;}
+                letter-spacing: 0.02em;
+              }
 
-  .back {background-color: #FFFFFF;}
+  .back {background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;}
 
+  .employees {display: flex;}
+
+  .container-two {padding: 32px 0;
+  }
 
 /* ============== SECTION-THREE STYLES ============== */
 
@@ -233,6 +260,9 @@ nav {margin-right: auto;}
                 font-weight: 400;
                 line-height: 1.5; /* 150% */
                 letter-spacing: 0.02em;}
+
+  .portfolio-item {padding-top: 120px; padding-bottom: 120px;
+    margin-bottom: 72px;}             
 
   /* ============== SECTION-FOUR STYLES ============== */  
 
