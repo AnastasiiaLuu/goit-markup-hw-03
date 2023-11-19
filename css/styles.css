@@ -92,14 +92,15 @@ nav {margin-right: auto;}
 .contacts {display: flex;
   
            }
-.contacts-list {display: flex;
-          column-gap: 40px;
+.contacts-list {
+       display: flex;
+       gap: 40px;
         }
 
 .header-container{display: flex;}
 
 .top-header {border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;}
+}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -227,6 +228,8 @@ nav {margin-right: auto;}
   /* ============== SECTION-THREE STYLES ============== */
   .team-item {background-color: #F4F4FD;
     padding: 120px 0;}
+
+  .team-item-section-title {margin-bottom: 72px;}
   
 
   .name {color: var(--NAVY-BLUE, #2E2F42);
@@ -235,8 +238,7 @@ nav {margin-right: auto;}
             font-weight: 500;
             line-height: 1.2; /* 120% */
             letter-spacing: 0.02em;
-            margin-bottom: 8px;
-            margin-bottom: 72px;}
+            margin-bottom: 8px;}
          
   .work {color: var(--SLATE, #434455);
                 text-align: center;
@@ -266,7 +268,8 @@ nav {margin-right: auto;}
                 font-weight: 500;
                 line-height: 1.2; /* 120% */
                 letter-spacing: 0.02em;
-                margin-bottom: 72px;}
+                margin-bottom: 8px;}
+
   .category {color: var(--SLATE, #434455);
                 /* Body */
                 font-size: 16px;
@@ -276,6 +279,8 @@ nav {margin-right: auto;}
 
   .portfolio-item {padding-top: 120px; padding-bottom: 120px;
     margin-bottom: 72px;}    
+
+  .portfolio-item-section-title {margin-bottom: 72px;}
     
   .portfolio-two {
     display: flex;
