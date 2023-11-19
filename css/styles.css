@@ -64,9 +64,17 @@
 .top-navigation {display: flex;
   width: 452px;
   justify-content: space-between;}
+  
 .nav {display: flex;
-      column-gap: 40px;}
+      column-gap: 40px;
+      }
 
+.contacts {display: flex;
+           }
+.contacts-list {display: flex;
+          column-gap: 40px;}
+
+.header-container{display: flex;}
 
 .logo {
     color: var(--IRIS, #4D5AE5);
@@ -110,10 +118,7 @@
 
         .contacts {font-style: normal}
 
-      .contacts {display: flex;
-          }
-        .contacts-list {display: flex;
-              column-gap: 40px;}
+
 
            
   .contacts-link:hover, .contacts-link:focus {color: #404BBF ;}
