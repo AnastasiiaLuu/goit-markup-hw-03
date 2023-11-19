@@ -57,7 +57,16 @@
   button:hover {background-color: #404BBF;}
   button:focus {background-color: #404BBF;}
 
+  .section-title {color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+
 /* ============== COMMON STYLES ============== */
+
 
 /* ============== HEADER STYLES ============== */
 
@@ -131,21 +140,37 @@ nav {margin-right: auto;}
 
   /* ============== HEADER STYLES ============== */
 
+
+  /* ============== SECTION-ONE STYLES ============== */
+
   h1 {color: #FFF;}
   .banner {background-color: #2E2F42;}
   .banner-item {color: var(--WHITE, #FFF);
     text-align: center;
-    /* Header 1 */
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    /* 107.143% */
-    letter-spacing: 0.02em;;}
+    letter-spacing: 0.02em;
+    }
+    .banner-section-title {
+      width: 1440px;
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto;
+     }
 
+      .banner-item-section-title {width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ============== SECTION-ONE STYLES ============== */
+
+
+    /* ============== SECTION-TWO STYLES ============== */
 
   .benefits-item {color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    /* Header 2 */
     font-size: 36px;
     font-weight: 700;
     line-height: 1/11; /* 111.111% */
@@ -154,7 +179,6 @@ nav {margin-right: auto;}
 
   .benefits-list 
     {color: var(--NAVY-BLUE, #2E2F42);
-        /* Header 3 */
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2; /* 120% */
@@ -162,28 +186,20 @@ nav {margin-right: auto;}
 
   .benefits-paragf
         {color: var(--SLATE, #434455);
-            /* Body */
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5; /* 150% */
             letter-spacing: 0.02em;}
 
-    
+  /* ============== SECTION-TWO STYLES ============== */
 
 
+  /* ============== SECTION-THREE STYLES ============== */
   .team-item {background-color: #F4F4FD;}
-  .team-list {color: var(--NAVY-BLUE, #2E2F42);
-        text-align: center;
-        /* Header 2 */
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11; /* 111.111% */
-        letter-spacing: 0.02em;
-        text-transform: capitalize;}
+  
 
   .name {color: var(--NAVY-BLUE, #2E2F42);
             text-align: center;
-            /* Header 3 */
             font-size: 20px;
             font-weight: 500;
             line-height: 1.2; /* 120% */
@@ -199,15 +215,11 @@ nav {margin-right: auto;}
 
   .back {background-color: #FFFFFF;}
 
-        
-  .portfolio-list{color: var(--NAVY-BLUE, #2E2F42);
-            text-align: center;
-            /* Header 2 */
-            font-size: 36px;
-            font-weight: 700;
-            line-height: 1.11; /* 111.111% */
-            letter-spacing: 0.02em;
-            text-transform: capitalize;}
+
+/* ============== SECTION-THREE STYLES ============== */
+
+
+/* ============== SECTION-FOUR STYLES ============== */
 
   .service {color: var(--NAVY-BLUE, #2E2F42);
                 /* Header 3 */
@@ -221,6 +233,11 @@ nav {margin-right: auto;}
                 font-weight: 400;
                 line-height: 1.5; /* 150% */
                 letter-spacing: 0.02em;}
+
+  /* ============== SECTION-FOUR STYLES ============== */  
+
+  
+  /* ============== FOOTER STYLES ============== */
         
   .the-end {background-color: #2e2f42;}
   .logo-end {color: var(--IRIS, #4D5AE5);
@@ -246,6 +263,7 @@ nav {margin-right: auto;}
         line-height: 1.5; /* 150% */
         letter-spacing: 0.02em;}
 
+/* ============== FOOTER STYLES ============== */
     
     
 
